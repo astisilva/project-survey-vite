@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Name } from './Name'
 import { Band } from './Band'
 import { Color } from './Color'
+import './style.css';
 
 
 
@@ -12,14 +13,10 @@ export const Form = () => {
     favoriteColor: '',
     favoriteBand: '',
 
-
   })
 
   const [currentStep, setCurrentStep] = useState(1)
   const [submittedData, setSubmittedData] = useState(null)
-
-
-
 
   const updateFormData = (field, value) => {
     setFormData((values) => ({ ...values, [field]: value }))
@@ -53,11 +50,12 @@ export const Form = () => {
   return (
 
     <div>
-{/* If data is submittedData is not null then display the submitted data */}
+      {/* If data is submittedData is not null then display the submitted data */}
       {submittedData ? (
-        <div>
-          <h2>Submitted Data:</h2>
+        <div class='submitted-form'>
+          <p>Your form has been submitted:</p>
           <pre>{submittedData}</pre>
+          <pre>Thank you!</pre>
         </div>
       ) : (
         /* If submittedData is null display the form */
@@ -70,9 +68,9 @@ export const Form = () => {
             {currentStep > 1 && <button onClick={prevStep}>Back</button>}
             {currentStep < 3 ? <button onClick={nextStep}>Next</button> : <button onClick={submitForm}>Submit</button>}
 
-          </div> 
-          </div>   
-       )}
+          </div>
         </div>
-      )
-      }
+      )}
+    </div>
+  )
+}

@@ -1,9 +1,10 @@
 import { Form } from "./Form";
+import './style.css';
+
+
 
 export const App = () => {
   return <div>
-    <h1>Form</h1>
-
-    <Form />
+        <Form />
   </div>
 };

@@ -6,9 +6,7 @@
 
 # Survey Project
 
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+- This project is a simple survey application built using React. The purpose of the app is to collect user responses
 
 ## Getting Started with the Project
 

@@ -1,13 +1,14 @@
 
 
 import React from 'react'
+import './style.css';
 
 export const Color = ({ value, updateFormData }) => {
   const favoriteColor = (e) => updateFormData("favoriteColor", e.target.value);
   return (
     <div>
 
-      <label>Favorite Color:</label>
+      <label>Favorite Color: </label>
       <select value={value} onChange={favoriteColor}>
         <option value="">Select a Color</option>
         <option value="black">Black</option>

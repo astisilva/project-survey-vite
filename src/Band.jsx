@@ -1,4 +1,5 @@
 import React from 'react'
+import './style.css';
 
 export const Band = ({ value, updateFormData }) => {
   const favoriteBand = (e) => updateFormData('favoriteBand', e.target.value)
@@ -6,7 +7,7 @@ export const Band = ({ value, updateFormData }) => {
 
 
     <div>
-    <label>Favorite Band:</label>
+    <label>Favorite Band: </label>
     <form>
       <div>
         <input

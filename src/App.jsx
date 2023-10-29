@@ -1,3 +1,9 @@
+import { Form } from "./Form";
+
 export const App = () => {
-  return <div>Find me in src/app.jsx!</div>;
+  return <div>
+    <h1>Form</h1>
+
+    <Form />
+  </div>
 };

@@ -50,7 +50,7 @@ export const Form = () => {
   return (
 
     <div>
-      {/* If data is submittedData is not null then display the submitted data */}
+      {/* If data is submittedData display the submitted data */}
       {submittedData ? (
         <div class='submitted-form'>
           <p>Your form has been submitted:</p>

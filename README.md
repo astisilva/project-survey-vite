@@ -6,7 +6,7 @@
 
 # Survey Project
 
-- This project is a simple survey application built using React. The purpose of the app is to collect user responses
+- This project is a survey application built using React. The purpose of the app is to collect user responses. I used React's useState hook to handle and update the app's state as needed.
 
 ## Getting Started with the Project
 

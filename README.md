@@ -22,11 +22,11 @@ npm i && code . && npm run dev
 
 ### The Problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+- For this project I started by applying what I learned in my lessons. When I faced challenges or needed help, I searched for it online and asked ChatGPT for clarification. This approach helped me build a strong foundation and overcome any difficulties during the project.
 
 ### View it live
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://dashing-frangipane-5231f0.netlify.app/
 
 ## Instructions
 

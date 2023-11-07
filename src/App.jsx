@@ -1,5 +1,5 @@
-import { Form } from "./Form";
-import './style.css';
+import { Form } from "./components/Form";
+import './styles/style.css';
 
 
 

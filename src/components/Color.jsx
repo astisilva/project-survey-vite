@@ -1,7 +1,5 @@
-
-
 import React from 'react'
-import './style.css';
+import '../styles/style.css';
 
 export const Color = ({ value, updateFormData }) => {
   const favoriteColor = (e) => updateFormData("favoriteColor", e.target.value);

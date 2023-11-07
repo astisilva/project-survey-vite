@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Name } from './Name'
 import { Band } from './Band'
 import { Color } from './Color'
-import './style.css';
+import '../styles/style.css';
 
 
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css';
+import '../styles/style.css';
 
 export const Band = ({ value, updateFormData }) => {
   const favoriteBand = (e) => updateFormData('favoriteBand', e.target.value)
